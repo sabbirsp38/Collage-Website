@@ -1,0 +1,97 @@
+How To Program 
+You need identically sized images. 
+View the source code at the bottom of this page. 
+Copy the JavaScript code between the <SCRIPT> tags into your page. Because it appears in the <HEAD> section, you must paste it in the <HEAD> of your page. 
+Copy the JavaScript onLoad Method into your page. Because it appears in the <BODY> tag, you must paste it in the <BODY> of your page, i.e. <BODY onLoad="loadpage()"> 
+For the Rotating Banner to work, there must be an initial image on your web page. 
+View the source of this page and copy the <A HREF=> tag that displays the initial image. Paste it somewhere in the <BODY> of your page wherever you want the Rotating Banner to appear. 
+Modify the JavaScript code as appropriate for your Rotating Banner. 
+Edit the function called loadpage(). Put the names of your images into it. 
+Edit the function called changepage(). Put your URLs into it. 
+Edit the <A HREF> tag. Change the WIDTH and HEIGHT options. 
+Change the speed with which the banner rotates by editing the statement: thetimer = setTimeout("changeimage()", 2000). It is currently set at 2000 milliseconds (i.e. 2 seconds). 
+
+
+Get The Images 
+
+Images associated with the first banner. 
+Image 0 
+Image 1 
+Image 2 
+Image 3 
+ Images associated with the second banner. 
+Image 0 
+Image 1 
+Image 2 
+ 
+
+
+
+
+Here's the JavaScript code 
+
+
+<HTML>
+<HEAD>
+<TITLE>Banner Rotator</TITLE>
+
+<script language="javascript">
+<!--
+function loadpage() { 
+index1 = 0;
+listofimages = new Array(4);
+listofimages[0] = new Image(430,58)
+listofimages[0].src = "itrc.gif"
+listofimages[1] = new Image(430,58)
+listofimages[1].src = "wvu.gif"
+listofimages[2] = new Image(430,58)
+listofimages[2].src = "oit.gif"
+listofimages[3] = new Image(430,58)
+listofimages[3].src = "ac.gif"
+
+thetimer = setTimeout("changeimage()", 2000);
+
+} 
+
+function changeimage(){ 
+index1 = index1 + 1
+if (index1 == "4") { 
+index1 = 0 
+} 
+imagesource = listofimages[index1].src
+window.document.banner1.src = imagesource
+
+thetimer = setTimeout("changeimage()", 1500);
+
+} 
+
+function changepage() { 
+if (index1 == 0) { 
+newlocation = "http://www.access.wvu.edu/itrc/" 
+}
+else if (index1 == 1) { 
+newlocation = "http://www.wvu.edu" 
+}
+else if (index1 == 2) { 
+newlocation = "http://www.oit.wvu.edu" 
+}
+else if (index1 == 3) { 
+newlocation = "http://www.access.wvu.edu" 
+}
+location = newlocation 
+} 
+
+// -->
+</script> 
+</HEAD>
+
+<BODY onload="loadpage()" link=black vlink=black alink=black>
+
+<BR><BR><BR>
+<CENTER>
+<A HREF="javascript:changepage()"><img src="itrc.gif" alt="Rotating Banner" border=3" name="banner1" WIDTH="466" HEIGHT="58"></A>
+</CENTER>
+
+</BODY>
+</HTML>
+ 

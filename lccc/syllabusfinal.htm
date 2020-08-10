@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-base.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-topbar.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-sidebar.css" />
+
+<script type="text/javascript" src="ddlevelsfiles/ddlevelsmenu.js">
+
+/***********************************************
+* All Levels Navigational Menu- (c) Dynamic Drive DHTML code library (http://www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+
+
+<style type="text/css">
+
+
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+
+#topsection{
+background: #EAEAEA;
+height: 90px; /*Height of top section*/
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 15% 0 20%; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width: 20%; /*Width of left column in percentage*/
+margin-left: -100%;
+}
+
+#rightcolumn{
+float: left;
+width: 15%; /*Width of right column in pixels*/
+margin-left: -15%; /*Set margin to that of -(RightColumnWidth)*/
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+</style>
+
+
+
+
+
+<style type="text/css">
+<!--
+.style1 {color: #F0F0F0}
+-->
+</style>
+</head>
+<body>
+<div id="maincontainer">
+
+<script language="JavaScript1.2">
+
+/*
+Watermark Backgound Image Script- © Dynamic Drive (www.dynamicdrive.com)
+For full source code, 100's more DHTML scripts, and TOS,
+visit dynamicdrive.com
+*/
+
+if (document.all||document.getElementById)
+document.body.style.background="url('logo.jpg') white center no-repeat fixed"
+
+</script>
+<span class="style1"></span>
+
+
+
+
+
+<div class="halfmoon">
+<ul>
+<li><a href="http://www.dynamicdrive.com"> Home</a></li></font>
+<li><a href="http://www.dynamicdrive.com/forums/">Corporate Training</a></li>
+<li><a href="http://www.dynamicdrive.com/new.htm">Distance Learning</a></li>
+<li class="selected"><a href="http://www.dynamicdrive.com/style/">Registration Form</a></li>
+<li><a href="http://www.dynamicdrive.com/forums/">Examinations</a></li>
+<li><a href="http://tools.dynamicdrive.com/imageoptimizer/">Policies</a></li>
+</ul>
+</div>
+
+
+<style type="text/css">
+
+.halfmoon{
+margin-bottom: 1em;
+}
+
+.halfmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 1px solid #929492;
+}
+
+.halfmoon li{
+display: inline;
+margin: 0;
+}
+
+.halfmoon li a{
+text-decoration: none;
+padding: 3px 9px 2px 5px;
+margin: 0;
+margin-right: 1px; /*distance between each tab*/
+border-left: 1px solid #DDD;
+color: #0066FF;
+font-size: 13px;
+background: #ECEEEC url(media/tabright.gif) top right no-repeat;
+}
+
+.halfmoon li a:visited{
+color: black;
+}
+
+.halfmoon li a:hover{
+background-color: #CDDADA;
+color: navy;
+}
+
+</style>
+
+<style type="text/css">
+
+.arrowlistmenu{
+width: 180px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 14px Arial;
+color: white;
+background: #A70303 url(titlebar.png) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(titlebar-active.png);
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li .opensubheader{ /*Open state CSS for sub menu header*/
+background: lightblue !important;
+}
+
+.arrowlistmenu ul li .closedsubheader{ /*Closed state CSS for sub menu header*/
+background: lightgreen !important;
+}
+
+.arrowlistmenu ul li a{
+color: 0066FF;
+background: url(arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+background-color: #0066FF;
+}
+
+.arrowlistmenu ul li a.subexpandable:hover{ /*hover state CSS for sub menu header*/
+background: lightblue;
+}
+
+
+
+</style>
+<style type="text/css">
+.menuheader1{ /*CSS class for menu headers in general (expanding or not!)*/
+color: white;
+background: black ;
+cursor: hand;
+cursor: pointer;
+}
+</style>
+<div class="arrowlistmenu">
+
+</div></div>
+
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertube">
+
+ *** middle
+ </div>
+</div>
+</div>
+
+<div id="leftcolumn">
+<div class="innertube">
+***left
+
+
+<div id="ddsidemenubar" class="markermenu">
+<div class="arrowlistmenu">
+<h3 class="menuheader expandable">Computer Courses</h3>
+<ul>
+<li><a href="Computing/it.htm" rel="ddsubmenuside1">Information Technology</a></li>
+<li><a href="Computing/compscience.htm" rel="ddsubmenuside2">Computer Science</a></li>
+<li><a href="Computing/networking.htm" rel="ddsubmenuside3">Networking</a></li>
+<li><a href="Computing/web.htm" rel="ddsubmenuside4">Web Design</a></li>
+<li><a href="Computing/graphic.htm" rel="ddsubmenuside5">Graphic Design</a></li>
+<li><a href="Computing/programming.htm" rel="ddsubmenuside6">Programming</a></li>
+<li><a href="Computing/database.htm" rel="ddsubmenuside7">Database</a></li>
+<li><a href="Computing/computingrationale.htm" style="border-bottom-width: "0"><div class="menuheader1"> Why Study Computing</a></li></font>
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+ddlevelsmenu.setup("ddsidemenubar", "sidebar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar") // <li><a href="Computing/computingrationale.htm" style="border-bottom-width: "0"><div class="menuheader1"> Why Study Computing</a></li></font>	-->
+</script>
+
+
+<!--HTML for the Drop Down Menus associated with Side Menu Bar-->
+<!--They should be inserted OUTSIDE any element other than the BODY tag itself-->
+<!--A good location would be the end of the page (right above "</BODY>")-->
+
+
+<!--Side Drop Down Menu 1 HTML-->
+
+<ul id="ddsubmenuside1" class="ddsubmenustyle blackwhite">
+<li><a href="#">Dipl in IT</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="#">Windows</a>
+    <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Word</a>
+     <ul>
+    <li><a href="demo2.htm">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Word</a>
+     <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Excel</a>
+     <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Access</a>
+     <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+	
+  </ul>
+</li>
+<li><a href="#">Advanced Diploma in IT</a>
+  <ul>
+   <li><a href="#">Adv Windows OS</a>
+    <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Internet & Email</a>
+     <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Adv. Word</a>
+     <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Adv. Excel</a>
+     <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+  <li><a href="#">Adv. Access</a>
+     <ul>
+    <li><a href="#">Syllabus</a></li>
+	</ul>
+   	</li>
+	
+	
+   
+    </ul>
+  </li>
+  <li><a href="#">What else after finishing IT</a></li>
+  <li><a href="#">Job Prospects</a></li>
+	</ul>
+
+</div>
+
+</div>
+
+<div id="rightcolumn">
+<div class="innertube">
+
+*** this is the right side
+</div>
+
+</div>
+
+
+
+</body>
+</html>

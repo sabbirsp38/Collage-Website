@@ -1,0 +1,2129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-base.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-topbar.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/ddlevelsmenu-sidebar.css" />
+
+<script type="text/javascript" src="ddlevelsfiles/ddlevelsmenu.js">
+
+/***********************************************
+* All Levels Navigational Menu- (c) Dynamic Drive DHTML code library (http://www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+
+#topsection{
+background: #EAEAEA;
+height: 90px; /*Height of top section*/
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 15% 0 20%; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width: 20%; /*Width of left column in percentage*/
+margin-left: -100%;
+}
+
+#rightcolumn{
+float: left;
+width: 15%; /*Width of right column in pixels*/
+margin-left: -15%; /*Set margin to that of -(RightColumnWidth)*/
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+</style>
+
+
+
+
+
+<style type="text/css">
+<!--
+.style1 {color: #F0F0F0}
+-->
+</style>
+
+<STYLE>
+
+<!--
+Rainbow Text- By Chris Rickard (chris.rickard@paccoast.com)
+Submitted to Dynamicdrive.com
+For this script, visit http://www.dynamicdrive.com
+-->
+
+  .rainbow{ behavior:url(rainbow.htc) } 
+</STYLE>
+
+
+
+<script type="text/javascript" src="crawler.js">
+/* Text and/or Image Crawler Script v1.5 (c)2009-2011 John Davenport Scheuer
+   as first seen in http://www.dynamicdrive.com/forums/
+   username: jscheuer1 - This Notice Must Remain for Legal Use
+   updated: 4/2011 for random order option, more (see below)
+*/
+</script>
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow100", //ID of blank DIV on page to house Slideshow
+	dimensions: [580, 380], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["Images/london-central.jpg", "", "", "From London UK"],
+		["Images/londcomput10.jpg", "", "", "We offer you training to meet your needs"],
+		["Images/londintercultural.jpg", "", "", "Best training possible"],
+		["Images/londTraining.jpg", "", "", "Highly trained tutors"],
+		["Images/londtraining2.jpg", "", "", "Different possible settings"],
+		["Images/logo.jpg", "", "", "Email, Text or Call London Capital Computer College."]   //<--no trailing comma after very last image element!
+],
+	displaymode: {type:'auto', pause:4500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 4500, //transition duration (milliseconds)
+	descreveal: "peekaboo",
+	togglerid: ""
+})
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["Images/pretoria.jpg", "", "", "SA - Pretoria"],
+["Images/johannesburg2.jpg", "", "", "SA - Johannesburg"],
+["Images/Harare_City_Zimbabwe.jpg", "", "", "Zambabwe - Harare"],
+["Images/Windhoek.jpg", "", "", "Namibia - Windhoek"],
+["Images/Lilongwe.jpg", "", "", "Malawi - Lilongwe"],
+["Images/blantyre.jpg", "", "", "Malawi - Blantyre"],
+["Images/Gaborone.jpg", "", "", "Botswana - Gaborone"], 
+["Images/maseru.jpg", "", "", "Lesotho - Maseru"], 
+["Images/luanda.jpg", "", "", "Angola - Luanda"], 
+["Images/Lusaka.jpg", "", "", "Zambia - Lusaka"], 
+["Images/mbabane.jpg", "", "", "Swaziland - Mbabane"], 
+["Images/maputo.jpg", "", "", "Mozambique - Maputo"] //<--no trailing comma after very last image element!
+],
+	displaymode: {type:'auto', pause:4500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 4500, //transition duration (milliseconds)
+	descreveal: "peekaboo",
+	togglerid: ""
+})
+
+
+var mygallery2=new fadeSlideShow({
+	wrapperid: "fadeshow2", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	
+	imagearray: [
+		["Images/Nairobi.jpg", "", "", "Nairobi - Kenua"],
+		["Images/dar-es-salaam.jpg", "", "", "Tanzania - Dar"],
+		["Images/Kampala.bmp", "", "", "Kampala - Uganda"],
+		["Images/kigali.gif", "", "", "Kigali - Rwanda"],
+		["Images/bujumbura.jpg", "", "", "Bujumbura - Burundi"],
+		["Images/djibouti.jpg", "", "", "Djobouti"],
+		["Images/addis-ababa.jpg", "", "", "Addis Ababa - Ethiopia"],
+		["Images/juba.jpg", "", "", "Juba - Southern Sudan"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 4500, //transition duration (milliseconds)
+	descreveal: "peekaboo",
+	togglerid: ""
+})
+
+var mygallery3=new fadeSlideShow({
+	wrapperid: "fadeshow3", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	
+	imagearray: [
+		["Images/kinshasa.jpg", "", "", "Democratic Republic of Congo - Kinshasa"],
+		["Images/yaounde.jpg", "", "", "Cameroon - Yaounde"],
+		["Images/malabo.jpg", "", "", "Equatorial Guinea - Malabo"],
+		["Images/Libreville.jpg", "", "", "Gabon - Libreville"],
+		["Images/brazza.jpg", "", "", "Republic of Congo"],
+		["Images/bangui.jpg", "", "", "Central Africa - Bangui"],
+		["Images/N'djamena.jpg", "", "", "Chad - N'Djamena"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 4500, //transition duration (milliseconds)
+	descreveal: "peekaboo",
+	togglerid: ""
+})
+
+var mygallery4=new fadeSlideShow({
+	wrapperid: "fadeshow4", //ID of blank DIV on page to house Slideshow
+	dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
+
+imagearray: [
+		["Images/lagos.jpg", "", "", "Nigeria - Lagos"],
+		["Images/abuja.jpg", "", "", "Nigerial - Abuja"],
+		["Images/Accra.jpg", "", "", "Ghana - Accra"],
+		["Images/banjul.jpg", "", "", "Gambia - Banjul"],
+		["Images/dakar.jpg", "", "", "Senegal - Dakar"],
+		["Images/freetown.jpg", "", "", "Sierra Leone - Freetown"],
+		["Images/Monrovia.jpg", "", "", "Liberia - Montrovia"],
+		["Images/Conakry.jpg", "", "", "Guinea - Conakry"],
+		["Images/cotonou.jpg", "", "", "Benin - Cotonou"],
+		["Images/abidjan.jpg", "", "", "Ivory Coast - Abidjan"],
+		["Images/Lome.jpg", "", "", "Togo - Lome"],
+		["Images/niamay.jpg", "", "", "Niger - Niamey"],
+		["Images/Nouakchott.jpg", "", "", "Mauritania - Novakchott"],
+		["Images/Ouagadougou.jpg", "", "", "Burkina Faso - Quagadougou"],
+		["Images/Praia.jpg", "", "", "Cape Verde - Praja"],
+		["Images/bamako.jpg", "", "", "Mali - Bamako"],
+		["Images/Bissau.jpg", "", "", "Guinea-Bissau - Bissau"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 4500, //transition duration (milliseconds)
+	descreveal: "peekaboo",
+	togglerid: ""
+})
+
+
+</script>
+
+
+
+
+
+
+</head>
+<body onload="ImageBook()" >
+
+<div id="maincontainer">
+
+
+<span class="style1"></span>
+
+<div id="ddtopmenubar" class="mattblackmenu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="computing.htm" rel="ddsubmenu1">Computing Programmes</a></li>
+<li><a href="business.htm" rel="ddsubmenu2">Business Programmes</a></li>
+<li><a href="corporate.htm" rel="ddsubmenu4">Corporate Training</a></li>
+<li><a href="fee.htm" rel="ddsubmenu5">Training Fee </a></li>
+<li><a href="distance.htm" rel="ddsubmenu3">Distance Learning</a></li>
+<li><a href="info.htm" rel="ddsubmenu6" >Register </a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+ddlevelsmenu.setup("ddtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")
+</script>
+
+
+<script type="text/javascript">
+
+/***********************************************
+* Book Flip slideshow script- © Ger Versluis 2003
+* Permission granted to DynamicDrive.com to feature script
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+/********************************************************
+	Create a div with transparent place holder in your html	
+	<div id="Book" style="position:relative">
+		<img src="placeholder.gif" width="144" height="227">
+	</div>
+	width = 2*book image width +4 height = book image height+2
+
+	Insert onload in body tag
+		<body onload="ImageBook()">	
+*********************************************************/
+
+// 7 variables to control behavior
+	var Book_Image_Width=140;
+	var Book_Image_Height=150;
+	var Book_Border=true;
+	var Book_Border_Color="gray";
+	var Book_Speed=15;
+	var Book_NextPage_Delay=500; //1 second=1000
+	var Book_Vertical_Turn=0;	
+
+// array to specify images and optional links. At least 4
+// If Link is not needed keep it ""
+
+	Book_Image_Sources=new Array(
+	    "logo.jpg","",
+		"hrm-a.png","",
+		"logo.jpg","",
+		"hrm-b.png","",
+		"logo.jpg","" // NOTE No comma after last line
+		);
+
+/***************** DO NOT EDIT BELOW **********************************/
+	var B_LI,B_MI,B_RI,B_TI,B_Angle=0,B_CrImg=6,B_MaxW,B_Direction=1;
+	var B_MSz,B_Stppd=false;B_Pre_Img=new Array(Book_Image_Sources.length);
+
+	function ImageBook(){
+		if(document.getElementById){
+			for(i=0;i<Book_Image_Sources.length;i+=2){
+				B_Pre_Img[i]=new Image();B_Pre_Img[i].src=Book_Image_Sources[i]}
+			Book_Div=document.getElementById("Book");
+			B_LI=document.createElement("img");Book_Div.appendChild(B_LI);	
+			B_RI=document.createElement("img");Book_Div.appendChild(B_RI);
+			B_MI=document.createElement("img");Book_Div.appendChild(B_MI);	
+			B_LI.style.position=B_MI.style.position=B_RI.style.position="absolute";
+			B_LI.style.zIndex=B_RI.style.zIndex=0;B_MI.style.zIndex=1;
+			B_LI.style.top=(Book_Vertical_Turn?Book_Image_Height+1:0)+"px";
+			B_LI.style.left=0+"px";
+			B_MI.style.top=0+"px";
+			B_MI.style.left=(Book_Vertical_Turn?0:Book_Image_Width+1)+"px";
+			B_RI.style.top=0+"px";
+			B_RI.style.left=(Book_Vertical_Turn?0:Book_Image_Width+1)+"px";
+			B_LI.style.height=Book_Image_Height+"px";
+			B_MI.style.height=Book_Image_Height+"px";
+			B_RI.style.height=Book_Image_Height+"px";
+			B_LI.style.width=Book_Image_Width+"px";
+			B_MI.style.width=Book_Image_Width+"px";
+			B_RI.style.width=Book_Image_Width+"px";
+			if(Book_Border){
+				B_LI.style.borderStyle=B_MI.style.borderStyle=B_RI.style.borderStyle="solid";
+				B_LI.style.borderWidth=1+"px";
+				B_MI.style.borderWidth=1+"px";
+				B_RI.style.borderWidth=1+"px";
+				B_LI.style.borderColor=B_MI.style.borderColor=B_RI.style.borderColor=Book_Border_Color}
+			B_LI.src=B_Pre_Img[0].src;
+			B_LI.lnk=Book_Image_Sources[1];
+			B_MI.src=B_Pre_Img[2].src;
+			B_MI.lnk=Book_Image_Sources[3];
+			B_RI.src=B_Pre_Img[4].src;
+			B_RI.lnk=Book_Image_Sources[5];
+			B_LI.onclick=B_MI.onclick=B_RI.onclick=B_LdLnk;
+			B_LI.onmouseover=B_MI.onmouseover=B_RI.onmouseover=B_Stp;
+			B_LI.onmouseout=B_MI.onmouseout=B_RI.onmouseout=B_Rstrt;
+			BookImages()}}
+
+	function BookImages(){
+		if(!B_Stppd){
+			if(Book_Vertical_Turn){
+				B_MSz=Math.abs(Math.round(Math.cos(B_Angle)*Book_Image_Height));
+				MidOffset=!B_Direction?Book_Image_Height+1:Book_Image_Height-B_MSz;
+				B_MI.style.top=MidOffset+"px";
+				B_MI.style.height=B_MSz+"px"}
+			else{	B_MSz=Math.abs(Math.round(Math.cos(B_Angle)*Book_Image_Width));
+				MidOffset=B_Direction?Book_Image_Width+1:Book_Image_Width-B_MSz;
+				B_MI.style.left=MidOffset+"px";
+				B_MI.style.width=B_MSz+"px"}
+			B_Angle+=Book_Speed/720*Math.PI;
+			if(B_Angle>=Math.PI/2&&B_Direction){
+				B_Direction=0;
+				if(B_CrImg==Book_Image_Sources.length)B_CrImg=0;
+				B_MI.src=B_Pre_Img[B_CrImg].src;
+				B_MI.lnk=Book_Image_Sources[B_CrImg+1];
+				B_CrImg+=2}
+			if(B_Angle>=Math.PI){
+
+				B_Direction=1;
+				B_TI=B_LI;
+				B_LI=B_MI;
+				B_MI=B_TI;
+				if(Book_Vertical_Turn)B_MI.style.top=0+"px";
+				else B_MI.style.left=Book_Image_Width+1+"px";			
+				B_MI.src=B_RI.src;
+				B_MI.lnk=B_RI.lnk;
+
+				setTimeout("Book_Next_Delay()",Book_NextPage_Delay)}
+			else setTimeout("BookImages()",50)}
+		else setTimeout("BookImages()",50)}
+
+	function Book_Next_Delay(){
+			if(B_CrImg==Book_Image_Sources.length)B_CrImg=0;
+			B_RI.src=B_Pre_Img[B_CrImg].src;
+			B_RI.lnk=Book_Image_Sources[B_CrImg+1];
+			B_MI.style.zIndex=2;
+			B_LI.style.zIndex=1;
+			B_Angle=0;
+			B_CrImg+=2;
+		setTimeout("BookImages()",50)}
+
+	function B_LdLnk(){if(this.lnk)window.location.href=this.lnk}
+	function B_Stp(){B_Stppd=true;this.style.cursor=this.lnk?"pointer":"default"}
+	function B_Rstrt(){B_Stppd=false}
+</script>
+
+
+<!--HTML for the Drop Down Menus associated with Top Menu Bar-->
+<!--They should be inserted OUTSIDE any element other than the BODY tag itself-->
+<!--A good location would be the end of the page (right above "</BODY>")-->
+
+<!--Top Drop Down Menu 1 HTML-->
+
+
+<ul id="ddsubmenu1" class="ddsubmenustyle">
+<li><a href="#">Information Technology</a></li>
+<li><a href="#">Computer Science</a></li>
+<li><a href="#">Networking</a>
+  <ul>
+  <li><a href="#">Basic Networking</a></li>
+  <li><a href="#">Cisco Networking</a></li>
+  <li><a href="#">Unix Networking</a></li>
+  <li><a href="#">Windows Networking</a></li>
+  </ul>
+</li>
+<li><a href="#">PC Engineering</a></li>
+<li><a href="#">Web Design</a></li>
+<li><a href="#">Graphic Design</a></li>
+<li><a href="#">Programming</a></li>
+<li><a href="#">Oracle Database </a></li>
+</ul>
+
+
+<!--Top Drop Down Menu 2 HTML-->
+
+<ul id="ddsubmenu2" class="ddsubmenustyle">
+<li><a href="#">Accounting</a>
+ <ul>
+  <li><a href="#">Computerised Accounting</a></li>
+  <li><a href="#">Financial Accounting</a></li>
+  </ul>
+</li>
+<li><a href="#">Finance</a> </li>
+<li><a href="#">Business Administration</a></li>
+<li><a href="#">Project Management</a></li>
+<li><a href="#">Business Economics</a></li>
+<li><a href="#">Management</a></li>
+<li><a href="#">Human Resource</a></li>
+<li><a href="#">Marketing</a></li>
+<li><a href="#">Hospitality</a></li>
+<li><a href="#">Administrative</a></li>
+
+</ul>
+
+<!--Top Drop Down Menu 3 HTML-->
+
+<ul id="ddsubmenu3" class="ddsubmenustyle">
+<li><a href="Distance Registration Form.pdf">Registration Form & Learning Policy</a></li>
+
+<li><a href="Distance Learning Fee.htm">Distance Learning Fees</a></li>
+
+
+</ul>
+
+<ul id="ddsubmenu4" class="ddsubmenustyle">
+<li><a href="Corporate Trainin Form.pdf"><font color="red"> <strong>Corporate Registration Form</a></li></font></strong>
+<li><a href="Distance Learning Fee.pdf"><font color="red"><strong>Corporate Training Information</a></li></font></strong>
+<li><a href="#">Computing Courses Training Dates</a>
+  <ul>
+  <li><a href="#">Information Technology</a></li>
+  <li><a href="#"><font color="#FF6600"> Computer Science</a></li></font>
+  <li><a href="#">Cert Networking / Diploma in PC Engineering</a></li>
+  <li><a href="#"><font color="#FF6600">Routing & Switching</a></li></font>
+  <li><a href="#">Cert Unix / Diploma in Windows Networking</a></li>
+  <li><a href="#"><font color="#FF6600">Web Design</a></li></font>
+  <li><a href="#">Graphic Design</a></li>
+  <li><a href="#"><font color="#FF6600">Programming</a></li></font>
+   <li><a href="#">Oracle Database</a></li>
+  </ul>
+</li>
+
+
+<li><a href="#">Business Courses Dates</a>
+<ul>
+   <li><a href="#">Project Management</a></li>
+  <li><a href="#"><font color="#FF6600"> Financial Accounting / Computerised Accounting</a></li></font>
+  <li><a href="#">Diploma in Admin Assistant / Diploma in Secretarial Studies</a></li>
+  <li><a href="#"><font color="#FF6600">Business Economics</a></li></font>
+  <li><a href="#">Hotel Management / Travel & Tourism</a></li>
+  <li><a href="#"><font color="#FF6600">Finance</a></li></font>
+  <li><a href="#">Marketing</a></li>
+  <li><a href="#"><font color="#FF6600">Human Resource Management</a></li></font>
+   <li><a href="#">Management</a></li>
+   <li><a href="#"><font color="#FF6600">Business Administration</a></li></font>
+  </ul>
+ </li>
+
+<li><a href="#"><font color="blue"> <strong>Southern Africa</a></strong></font></li>
+
+<li><a href="#"><font color="#FF00FF"> <strong>East Africa</a></strong></font></li>
+<li><a href="#"><font color="#99CCFF"> <strong>Central Africa</a></strong></font></li>
+<li><a href="#"><font color="#CC3300"> <strong>West Africa</a></strong></font></li>
+
+
+</ul>
+
+<ul id="ddsubmenu5" class="ddsubmenustyle">
+<li><a href="#">1 day courses</a>
+ <ul>
+  <li><a href="#">Discounted price $100</a></li>
+  <li><a href="#">Normal fee $200</a></li>
+  </ul>
+</li>
+<li><a href="#">2 day courses</a>
+  <ul>
+ <li><a href="#">Discounted price $130 </a></li>
+ <li><a href="#">Normal fee $260</a></li>
+  </ul>
+ </li>
+<li><a href="#">3 day courses</a>
+   <ul>
+<li><a href="#">Discounted price $160</a></li>
+<li><a href="#">Normal fee $320</a></li>
+   </ul>
+</li>
+<li><a href="#">5 day courses</a>
+   <ul>
+    <li><a href="#">Discounted price $200</a></li>
+    <li><a href="#">Normal fee $400</a></li>
+   </ul>
+</li>
+</ul>
+
+<ul id="ddsubmenu6" class="ddsubmenustyle">
+<li><a href="#"><font color="#FF6600"><center><strong>Corporate Training Information</a></center></font></li></strong>
+<li><a href="#"><font color="#FF6600"><center><strong>Corporate Training Registration Form</a></center></font></li></strong>
+<li><a href="#"><font color="#FF6600"><center><strong>Corporate Training Venues</a></center></font></li></strong>
+</ul>
+
+<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#800080" scrollamount="2" loop="infinite" >Companies and colleges interested in affiliating with London Capital Computer College should email us for details. <img src=arrow-right.gif />  We are looking for trainers as well; email  CV </marquee>
+<style type="text/css">
+
+.halfmoon{
+margin-bottom: 1em;
+}
+
+.halfmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 1px solid #929492;
+}
+
+.halfmoon li{
+display: inline;
+margin: 0;
+}
+
+.halfmoon li a{
+text-decoration: none;
+padding: 3px 9px 2px 5px;
+margin: 0;
+margin-right: 1px; /*distance between each tab*/
+border-left: 1px solid #DDD;
+color: #0066FF;
+font-size: 13px;
+background: #ECEEEC url(media/tabright.gif) top right no-repeat;
+}
+
+.halfmoon li a:visited{
+color: black;
+}
+
+.halfmoon li a:hover{
+background-color: #CDDADA;
+color: navy;
+}
+
+</style>
+
+<style type="text/css">
+
+.arrowlistmenu{
+width: 180px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 14px Arial;
+color: white;
+background: #A70303 url(titlebar.png) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(titlebar-active.png);
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li .opensubheader{ /*Open state CSS for sub menu header*/
+background: lightblue !important;
+}
+
+.arrowlistmenu ul li .closedsubheader{ /*Closed state CSS for sub menu header*/
+background: lightgreen !important;
+}
+
+.arrowlistmenu ul li a{
+color: 0066FF;
+background: url(arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+background-color: #0066FF;
+}
+
+.arrowlistmenu ul li a.subexpandable:hover{ /*hover state CSS for sub menu header*/
+background: lightblue;
+}
+
+</style>
+<style type="text/css">
+.menuheader1{ /*CSS class for menu headers in general (expanding or not!)*/
+color: white;
+background: black ;
+cursor: hand;
+cursor: pointer;
+}
+</style>
+<div class="arrowlistmenu">
+
+</div></div>
+
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertube">
+
+
+<h2><MARQUEE WIDTH="100%" BEHAVIOR="alternate"  style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#000080"><center><bold> Human Resource </center></bold></MARQUEE></h2>
+
+<font size="2" face="Verdana">  1.  You need to complete the Registration Form (see <font color="#FF0000">Register Now above)</font><br />
+2.  Remember to state the <font color="#FF0000">Training Dates </font>interested and <font color="#FF0000">VENUE</font> (Country and City)<br />
+3.  Read the <font color="#FF0000">Terms and Conditions </font>and <font color="#FF0000">SIGN the registration Form</font><br />
+4.  For <strong>Dates</strong> see <font color="#FF0000">Computing Courses Training Dates </font>under <font color="#FF0000">Corporate Training</font> menu above<br />
+</font>
+
+<br />
+<MARQUEE WIDTH="100%" BEHAVIOR="alternate"  style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="purple"><center><bold>Diploma in Human Resources Management (630)</center></bold></MARQUEE>
+<br />
+
+
+
+
+
+
+
+
+<img src=arrow-right.gif />	Human Resource Management	<br />
+<img src=arrow-right.gif />	Organisational Behaviour<br />
+<img src=arrow-right.gif />	Managing the Labour Market	<br />
+<img src=arrow-right.gif />	Labour Law	<br />
+<img src=arrow-right.gif />	Training & Development	<br />
+
+		
+</font>
+<p>
+
+<br />
+<MARQUEE WIDTH="100%" BEHAVIOR="alternate"  style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="purple"><center><bold>Advanced Diploma in Human Resources Management (631)</center></bold></MARQUEE>
+<br />
+
+<img src=arrow-right.gif />		Project Management Skills<br />
+<img src=arrow-right.gif />		Organisational Development <br />
+<img src=arrow-right.gif />		Industrial Organisation<br />
+<img src=arrow-right.gif />		Business Research Methods<br />
+<img src=arrow-right.gif />		Ethics in Management<br />
+
+
+		
+</font>
+<p>
+
+
+</br>
+<font color="#BB0000"><center>Certificate, Diploma and Advanced Diploma </center></font>
+
+</br>
+
+<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#336666" BEHAVIOR="alternate" scrolldelay="50000" >London Capital Computer College </marquee>
+
+ <p><center> <font color="red"> Telephone: 	</font>    
+ <font color ="green">00 44 7476 824 280</font><br>  
+				  <font color="red">email: </font>info@londoncomputercollege.co.uk </font>
+		  </center>
+
+ </font>
+
+<div id="fadeshow100" > </div>
+
+<br />
+<div id="Book" style="position:relative" left:150px bottom:500px>
+<img src="placeholder.gif" >
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div id="leftcolumn">
+<div class="innertube">
+
+<div id="ddsidemenubar" class="markermenu">
+<div class="arrowlistmenu">
+<h3 class="menuheader expandable">Computer Courses</h3>
+<ul>
+<li><a href="Computing/it.pdf" rel="ddsubmenuside1">Information Technology</a></li>
+<li><a href="Computing/compscience.pdf" rel="ddsubmenuside2">Computer Science</a></li>
+<li><a href="Computing/networking.pdf" rel="ddsubmenuside3">Networking</a></li>
+<li><a href="Computing/pcengineering.pdf" rel="ddsubmenuside3b">PC Engineering</a></li>
+<li><a href="Computing/web.pdf" rel="ddsubmenuside4">Web Design</a></li>
+<li><a href="Computing/graphic.pdf" rel="ddsubmenuside5">Graphic Design</a></li>
+<li><a href="Computing/programming.pdf" rel="ddsubmenuside6">Programming</a></li>
+<li><a href="Computing/database.pdf" rel="ddsubmenuside7">Database</a></li>
+<li><a href="Computing/computingrationale.htm" style="border-bottom-width: "0"><div class="menuheader1"> Why Study Computing</a></li></font>
+</ul>
+
+
+
+<script type="text/javascript">
+ddlevelsmenu.setup("ddsidemenubar", "sidebar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar") // <li><a href="Computing/computingrationale.htm" style="border-bottom-width: "0"><div class="menuheader1"> Why Study Computing</a></li></font>	</div>-->
+</script>
+
+
+<!--HTML for the Drop Down Menus associated with Side Menu Bar-->
+<!--They should be inserted OUTSIDE any element other than the BODY tag itself-->
+<!--A good location would be the end of the page (right above "</BODY>")-->
+
+
+<!--Side Drop Down Menu 1 HTML-->
+
+<ul id="ddsubmenuside1" class="ddsubmenustyle blackwhite">
+<li><a href="Computing/Information System.pdf">Certificate in Information System</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="Computing/Information System.pdf" >Introduction to Computers</a>
+    <ul>
+    <li><a href="Computing/"Info-Intro.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="Computing/"Information System.pdf">Business Information Systems</a>
+     <ul>
+    <li><a href="Computing/"Info-BIS.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="Computing/"Information System.pdf">Business English & Report Writing</a>
+     <ul>
+    <li><a href="Computing/Info-BusEnglish.pdf">Syllabus</a></li>
+	</ul>
+	</ul>
+</li>
+
+<li><a href="../Computing/IT.pdf">Diploma in Information Technology</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/IT.pdf">Windows</a>
+    <ul>
+    <li><a href="../Computing/ITWindows.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/ITPowerpoint.pdf">PowerPoint</a>
+     <ul>
+    <li><a href="../Computing/ITWord.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/IT.pdf">Word</a>
+     <ul>
+    <li><a href="../Computing/ITWord.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/IT.pdf">Excel</a>
+     <ul>
+    <li><a href="../Computing/ITExcel.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/IT.pdf">Access</a>
+     <ul>
+    <li><a href="../Computing/ITAccess.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+
+<li><a href="../Computing/AdvDipIT.pdf">Advanced Diploma in IT</a>
+  <ul>
+  <center><font color = "blue"><strong>Subjects</font></center></strong>
+   <li><a href="../Computing/AdvDipIT.pdf">Adv Windows OS</a>
+    <ul>
+    <li><a href="../Computing/AdvITWindows.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/AdvDipIT.pdf">Internet & Email</a>
+     <ul>
+    <li><a href="../Computing/AdvITInterTechnology.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/AdvDipIT.pdf">Adv. Word</a>
+     <ul>
+    <li><a href="../Computing/AdvITWord.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/AdvDipIT.pdf">Adv. Excel</a>
+     <ul>
+    <li><a href="../Computing/AdvITExcel.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/AdvDipIT.pdf">Adv. Access</a>
+     <ul>
+    <li><a href="../Computing/AdvITAccess.pdf">Syllabus</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li><a href="../Computing/.pdf"><font color="#FF6600"><strong><center>What else after completing IT</a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../Computing/ITOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+<ul id="ddsubmenuside2" class="ddsubmenustyle blackwhite">
+<li><a href="../Computing/CompFundamentals.pdf">Certificate in Computer Fundamentals</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/CompFundamentals.pdf" >HTML Internet Technology</a>
+    <ul>
+    <li><a href="../Computing/CertInteretTechnology.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CompFundamentals.pdf">Introduction to Programming</a>
+     <ul>
+    <li><a href="../Computing/CertIntroductiontoProg.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CompFundamentals.pdf">Computer Fundamentals</a>
+     <ul>
+    <li><a href="../Computing/CertCompFund.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/CompFundamentals.pdf">QBasic Programming</a>
+     <ul>
+    <li><a href="../Computing/CertQBasic.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/CompFundamentals.pdf">Business Maths</a>
+     <ul>
+    <li><a href="../Computing/CertBusMaths.pdf">Syllabus</a></li>
+	</ul>
+	</ul>
+</li>
+
+<li><a href="../Computing/SAD.pdf">Dipl in System Design</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/SAD.pdf">Business Computer Systems</a>
+    <ul>
+    <li><a href="../Computing/SADBusCompSy.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/SAD.pdf">System Design</a>
+     <ul>
+    <li><a href="../Computing/SADSystemDesign.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/SAD.pdf">Network Fundamentals</a>
+     <ul>
+    <li><a href="../Computing/SADNetFund.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/SAD.pdf">Pascal Programming</a>
+     <ul>
+    <li><a href="../Computing/SADPascal.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/SAD.pdf">Operating System Management</a>
+     <ul>
+    <li><a href="../Computing/SADOpSyMgt.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+
+<li><a href="../Computing/CompScience.pdf">Advanced Diploma in Computer Science</a>
+  <ul>
+  <center><font color = "blue"><strong>Subjects</font></center></strong>
+   <li><a href="../Computing/CompScience.pdf">Computer Systems Architecture</a>
+    <ul>
+    <li><a href="../Computing/AdvCompSc-SyArchitecture.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CompScience.pdf">Database Technology</a>
+     <ul>
+    <li><a href="../Computing/AdvCompSc-Database.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CompScience.pdf">Management Science</a>
+     <ul>
+    <li><a href="../Computing/AdvCompSc-MgtScience.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CompScience.pdf">Data Communications & Networking</a>
+     <ul>
+    <li><a href="../Computing/AdvCompSc-Networking.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CompScience.pdf">Software Engineering</a>
+     <ul>
+    <li><a href="../Computing/AdvCompSc-SoftEng.pdf">Syllabus</a></li>
+	</ul>
+   <li><a href="../Computing/CompScience.pdf">C Programming </a>
+     <ul>
+    <li><a href="../Computing/AdvCompSc-Programming-C.pdf">Syllabus</a></li>
+	 </ul>
+	<li><a href="../Computing/CompScience.pdf">VB .Net Programming</a>
+     <ul>
+    <li><a href="../Computing/AdvCompSc-Programming - VBnet.pdf">Syllabus</a></li>
+	</ul> 
+</li>
+</ul>
+</li>
+<li><a href=".pdf"><font color="#FF6600"><strong><center>What else after completing Computer Science</a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="CompScienceOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+<ul id="ddsubmenuside3" class="ddsubmenustyle blackwhite">
+<li><a href="../Computing/CertNetworking.pdf">Certificate in Networking</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/CertNetworking.pdf" >Networking Essentials</a>
+    <ul>
+    <li><a href="../Computing/CertNet-Essentials.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CertNetworking.pdf">Windows Client Networking</a>
+     <ul>
+    <li><a href="../Computing/CertNet-WindowsClient.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CertNetworking.pdf">Windows Server Administration & Implementation</a>
+     <ul>
+    <li><a href="../Computing/CertNet-WindowsServerAdminImp.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/CertNetworking.pdf">TCP/IP Network Architecture</a>
+     <ul>
+    <li><a href="../Computing/CertNet-TCP.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/CertNetworking.pdf">Network Security</a>
+     <ul>
+    <li><a href="../Computing/CertNet-Security.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+
+<li><a href="../Computing/CertUnixNetworking.pdf">Certificate in Unix Networking</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/CertUnixNetworking.pdf">Overview of Operating Systems</a>
+    <ul>
+    <li><a href="../Computing/CertUnix-OverViewOS.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CertUnixNetworking.pdf">Introduction to SCO Unix</a>
+     <ul>
+    <li><a href="../Computing/CertUnix-SCOUnix.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CertUnixNetworking.pdf">Introduction to Linux</a>
+     <ul>
+    <li><a href="../Computing/CertUnix-Linux.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CertUnixNetworking.pdf">Introduction to Solaris</a>
+     <ul>
+    <li><a href="../Computing/CertUnix-Solaris.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/CertUnixNetworking.pdf">Introduction to Shell Programming</a>
+     <ul>
+    <li><a href="../Computing/CertUnix-ShellProg.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+
+<li><a href="../Computing/Diploma-UnixNetworking.pdf">Diploma in Unix Networking</a>
+  <ul>
+  <center><font color = "blue"><strong>Subjects</font></center></strong>
+   <li><a href="../Computing/Diploma-UnixNetworking.pdf">Unix Performance Mgt</a>
+    <ul>
+    <li><a href="../Computing/DiplomaUnix-PerfMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Diploma-UnixNetworking.pdf">SCO Administration</a>
+     <ul>
+    <li><a href="../Computing/DiplomaUnix-SCOUnix.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Diploma-UnixNetworking.pdf">Linux Administration</a>
+     <ul>
+    <li><a href="../Computing/DiplomaUnix-Linux.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Diploma-UnixNetworking.pdf">Solaris Administration</a>
+     <ul>
+    <li><a href="../Computing/DiplomaUnix-Solaris.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Diploma-UnixNetworking.pdf">Perl Programming</a>
+     <ul>
+    <li><a href="../Computing/DiplomaUnix-Perl.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>	
+	<li><a href="../Computing/WindowsNetworking.pdf">Diploma in Windows Server Networking</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/WindowsNetworking.pdf" >Windows Server Administration</a>
+    <ul>
+    <li><a href="../Computing/Windows-ServerAdmin.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/WindowsNetworking.pdf">Windows Server Infrastructure</a>
+     <ul>
+    <li><a href="../Computing/Windows-Infrastructure.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/WindowsNetworking.pdf">Windows Server Active Directory</a>
+     <ul>
+    <li><a href="../Computing/Windows-ActiveDir.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/WindowsNetworking.pdf">Windows SQL Server Database Administration</a>
+     <ul>
+    <li><a href="../Computing/Windows-SQL.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/WindowsNetworking.pdf">Windows Exchange Server</a>
+     <ul>
+    <li><a href="../Computing/Windows-ExchangeServer.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+<li><a href="../Computing/.pdf">Diploma in IP Routing</a>
+  <ul>
+  <center><font color = "blue"><strong>Subjects</font></center></strong>
+   <li><a href="../Computing/DipRouting.pdf">Technological Elements of Networks</a>
+    <ul>
+    <li><a href="../Computing/DipRouting-Technological Elements of Networks.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/DipRouting.pdf">Internetwork Infrastructure</a>
+     <ul>
+    <li><a href="../Computing/DipRouting-Internetwork Infrastructure.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/DipRouting.pdf">IP Routing Technology</a>
+     <ul>
+    <li><a href="../Computing/DipRouting-IP Routing Technology.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/DipRouting.pdf">Connecting Routing Devices</a>
+     <ul>
+    <li><a href="../Computing/DipRouting-Connecting Routing Devices.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/DipRouting.pdf">Introduction to Telecommunications</a>
+     <ul>
+    <li><a href="../Computing/DipRouting-Introduction to Telecommunications.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+  <li><a href="../Computing/RoutingAdv.pdf">Advanced Diploma in Routing and Switching</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/RoutingAdv.pdf" >Advanced IP Routing</a>
+    <ul>
+    <li><a href="../Computing/RoutingAdv-Routing.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/RoutingAdv.pdf">Switching</a>
+     <ul>
+    <li><a href="../Computing/RoutingAdv-Switching.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/RoutingAdv.pdf">Advanced LAN, WAN & Switching Configuration</a>
+     <ul>
+    <li><a href="../Computing/RoutingAdv-LAN WAN Switching Configuration.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="RoutingAdv.pdf">Telephone Signaling System Technology</a>
+     <ul>
+    <li><a href="../Computing/RoutingAdv-Signalling.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/RoutingAdv.pdf">Fibre Optic Technology</a>
+     <ul>
+    <li><a href="../Computing/RoutingAdv-FibreOptic.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+</li>
+</li>
+
+<li><a href="../Computing/.pdf"><font color="#FF6600"><strong><center>What else after completing Networking</a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../Computing/Networking-Occupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+<ul id="ddsubmenuside3b" class="ddsubmenustyle blackwhite">
+<li><a href="../Computing/PC Engineering.pdf">Dipl in PC Engineering</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/PC Engineering.pdf">PC Engineering</a>
+    <ul>
+    <li><a href="../Computing/PCEng-PC Engineering.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/PC Engineering.pdf">Data Recovery & System Configuration</a>
+     <ul>
+    <li><a href="../Computing/PCEng-Data Recovery and System Configuration.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/PC Engineering.pdf">Structured Cabling</a>
+     <ul>
+    <li><a href="../Computing/PCEng-Structured.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/PC Engineering.pdf">Wireless Networking</a>
+     <ul>
+    <li><a href="../Computing/PCEng-Wireless.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/PC Engineering.pdf">Computer Security</a>
+     <ul>
+    <li><a href="../Computing/PCEng-Computer Security.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+<li><a href="../Computing/.pdf"><font color="#FF6600"><strong><center>What else after completing PC Engineering</a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../Computing/PC-Occupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+
+
+<ul id="ddsubmenuside4" class="ddsubmenustyle blackwhite">
+<li><a href="../Computing/Web.pdf">Diploma in eCommerce & Web Design</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/Web.pdf" >eBusiness Fumdanentals</a>
+    <ul>
+    <li><a href="../Computing/WebeBusiness.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Web.pdf">HTML</a>
+     <ul>
+    <li><a href="../Computing/WebHTML.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Web.pdf">XML</a>
+     <ul>
+    <li><a href="../Computing/WebXML.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Web.pdf">JavaScript</a>
+     <ul>
+    <li><a href="../Computing/WebJavaScript.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Web.pdf">DreamWeaver</a>
+     <ul>
+    <li><a href="../Computing/WebDreamWeaver.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Web.pdf">Flash</a>
+     <ul>
+    <li><a href="../Computing/WebFlash.pdf">Syllabus</a></li>
+	</ul>
+	</ul>
+</li>
+
+<li><a href="../Computing/WebAdv.pdf">Advanced Diploma in Web Development</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/WebAdv.pdf">Advanced HTML</a>
+    <ul>
+    <li><a href="../Computing/Web-AdvHTML.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/WebAdv.pdf">Advanced JavaScript</a>
+     <ul>
+    <li><a href="../Computing/Web-AdvJavaScript.pdf">Syllabus</a></li>
+	</ul>
+   <li><a href="../Computing/WebAdv.pdf">Web Server Configuration</a>
+     <ul>
+    <li><a href="../Computing/Web-AdvWebServerConfiguration.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/WebAdv.pdf">ASP .Net</a>
+     <ul>
+    <li><a href="../Computing/Web-AdvASP.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/WebAdv.pdf">PhP</a>
+     <ul>
+    <li><a href="../Computing/Web-AdvPhp.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+</li>
+<li><a href="../Computing/.pdf"><font color="#FF6600"><strong><center>What else after completing Web Design</a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="WebOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+<ul id="ddsubmenuside5" class="ddsubmenustyle blackwhite">
+<li><a href="../Computing/Graphics.pdf">Diploma in Graphic Design</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/Graphics.pdf" >Introduction to Computer Graphics</a>
+    <ul>
+    <li><a href="../Computing/Graphics-Introduction to Computer Graphics.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Graphics.pdf">PageMaker/InDesign</a>
+     <ul>
+    <li><a href="../Computing/Graphics-InDesign.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Graphics.pdf">Illustrator</a>
+     <ul>
+    <li><a href="../Computing/Graphics-Illustrator.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Graphics.pdf">Photoshop</a>
+     <ul>
+    <li><a href="../Computing/Graphics-Photoshop.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Graphics.pdf">CorelDraw</a>
+     <ul>
+    <li><a href="../Computing/Graphics-CorelDraw.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Graphics.pdf">AutoCAD</a>
+     <ul>
+    <li><a href="../Computing/Graphics-AutoCAD.pdf">Syllabus</a></li>
+	</ul>
+	</ul>
+</li>
+
+<li><a href="../Computing/GraphicsAdv.pdf">Advanced Diploma in Graphic Design</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/GraphicsAdv.pdf">Advanced Windows Desktop Operating System</a>
+    <ul>
+    <li><a href="../Computing/GraphicsAdv-WinOS.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/GraphicsAdv.pdf">Computer Animation</a>
+     <ul>
+    <li><a href="../Computing/GraphicsAdv-Computer Animation.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/GraphicsAdv.pdf">Photography & Video Editing</a>
+     <ul>
+    <li><a href="../Computing/GraphicsAdv-Photography and Video Editing.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/GraphicsAdv.pdf">Adobe Acrobat</a>
+     <ul>
+    <li><a href="../Computing/GraphicsAdv-Adobe Acrobat.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/GraphicsAdv.pdf">Advanced AutoCAD</a>
+     <ul>
+    <li><a href="../Computing/GraphicsAdv-AutoCAD.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+</li>
+<li><a href="../Computing/.pdf"><font color="#FF6600"><strong><center>What else after completing Graphic Design</a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../Computing/GraphicsOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+<ul id="ddsubmenuside6" class="ddsubmenustyle blackwhite">
+<li><a href="../Computing/Programming.pdf">Diploma in Programming</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/Programming.pdf" >Programming Principles & Paradigms</a>
+    <ul>
+    <li><a href="../Computing/Programming-Principles and Paradigms.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Programming.pdf">C Programming</a>
+     <ul>
+    <li><a href="../Computing/Programming-C.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Programming.pdf">VB .Net</a>
+     <ul>
+    <li><a href="../Computing/Programming-VBnet.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Programming.pdf">C++ Programming</a>
+     <ul>
+    <li><a href="../Computing/Programming-CPlus.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Programming.pdf">Java Programming</a>
+     <ul>
+    <li><a href="../Computing/Programming-Java.pdf">Syllabus</a></li>
+	</ul>
+	
+</ul>
+</li>
+
+<li><a href="../Computing/ProgrammingAdv.pdf">Advanced Diploma in Programming</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/ProgrammingAdv.pdf">Advanced Operating System Principles</a>
+    <ul>
+    <li><a href="../Computing/ProgrammingAdv-Operating System Principles.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/ProgrammingAdv.pdf">Advanced C Programming</a>
+     <ul>
+    <li><a href="../Computing/ProgrammingAdv-C.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/ProgrammingAdv.pdf">Advanced VB .Net</a>
+     <ul>
+    <li><a href="../Computing/ProgrammingAdv-VBNet.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/ProgrammingAdv.pdf">Advanced C++ Programming</a>
+     <ul>
+    <li><a href="../Computing/ProgrammingAdv-CPlus.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="ProgrammingAdv.pdf">Advanced Java Programming</a>
+     <ul>
+    <li><a href="../Computing/ProgrammingAdv-Java.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+</li>
+<li><a href="../Computing/.pdf"><font color="#FF6600"><strong><center>What else after completing Programming</a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../Computing/ProgrammingOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+<ul id="ddsubmenuside7" class="ddsubmenustyle blackwhite">
+<li><a href="../Computing/Oracle.pdf">Diploma in Database Administration</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/Oracle.pdf" >Oracle SQL</a>
+    <ul>
+    <li><a href="../Computing/Oracle-SQL.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Oracle.pdf">Oracle PL/SQL</a>
+     <ul>
+    <li><a href="../Computing/Oracle-PLSQL.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/Oracle.pdf">Oracle Database Administration</a>
+     <ul>
+    <li><a href="../Computing/Oracle-DBA.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Oracle.pdf">Oracle Solaris Networking</a>
+     <ul>
+    <li><a href="../Computing/Oracle-Solaris.pdf">Syllabus</a></li>
+	</ul>
+	<li><a href="../Computing/Oracle.pdf">Windows SQL Server Database Administration</a>
+     <ul>
+    <li><a href="../Computing/Oracle-WinSQL.pdf">Syllabus</a></li>
+	</ul>
+	
+</ul>
+</li>
+
+<li><a href="../Computing/OracleDeveloper.pdf">Diploma in Database Developer</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../Computing/OracleDeveloper.pdf">Programming the Web using HTML & XML</a>
+    <ul>
+    <li><a href="../Computing/OracleDevHTML-XML.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/OracleDeveloper.pdf">Oracle Forms</a>
+     <ul>
+    <li><a href="../Computing/OracleDevForms.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/OracleDeveloper.pdf">Oracle Reports</a>
+     <ul>
+    <li><a href="../Computing/OracleDevReports.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/OracleDeveloper.pdf">Oracle Designer</a>
+     <ul>
+    <li><a href="../Computing/OracleDevDesigner.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../Computing/OracleDeveloper.pdf">Oracle JDeveloper</a>
+     <ul>
+    <li><a href="../Computing/OracleDevJDeveloper.pdf">Syllabus</a></li>
+	</ul>
+</ul>
+</li>
+</li>
+<li><a href="../Computing/.pdf"><font color="#FF6600"><strong><center>What else after completing Database Administration </a></li></strong></font></center>
+<li><a href="../Computing/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../Computing/OracleOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+
+<div class="arrowlistmenu"> <h3 class="menuheader expandable"> Business Courses</h3></div>
+<ul>
+<li><a href="../BA/accounting1.htm" rel="ddsubmenuside8">Accounting</a></li>
+<li><a href="../BA/ba.htm" rel="ddsubmenuside9">Business Administration</a></li>
+<li><a href="../BA/project.htm" rel="ddsubmenuside10">Project Management</a></li>
+<li><a href="../BA/buseco.htm" rel="ddsubmenuside11">Business Economics</a></li>
+<li><a href="../BA/mgt.htm" rel="ddsubmenuside12">Management</a></li>
+<li><a href="../BA/hrm.htm" rel="ddsubmenuside13">Human Resource Management</a></li>
+<li><a href="../BA/marketing.htm" rel="ddsubmenuside14">Marketing</a></li>
+<li><a href="../BA/finance.htm" rel="ddsubmenuside15">Finance</a></li>
+<li><a href="../BA/hospitality.htm" rel="ddsubmenuside16">Hospitality</a></li>
+<li><a href="../BA/administrative.htm" rel="ddsubmenuside17">Administrative</a></li>
+<li><a href="../BA/businessrationale.htm" style="border-bottom-width: "0"><div class="menuheader1"> Why Study Business</a></li></font>
+</ul>
+
+
+
+<!--HTML for the Drop Down Menus associated with Side Menu Bar-->
+<!--They should be inserted OUTSIDE any element other than the BODY tag itself-->
+<!--A good location would be the end of the page (right above "</BODY>")-->
+
+
+<!--Side Drop Down Menu 1 HTML-->
+
+<ul id="ddsubmenuside8" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/Accounting-Finance.pdf">Diploma in Accounting & Finance</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../BA/Accounting-Finance.pdf">Financial Accounting</a>
+    <ul>
+    <li><a href="../BA/AccFin-FinancialAccounting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance.pdf">Corporate Finance</a>
+     <ul>
+    <li><a href="../BA/AccFin-CorporateFinance.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance.pdf">Auditing & Assurance</a>
+     <ul>
+    <li><a href="../BA/AccFin-Auditing.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance.pdf">Management Accounting</a>
+     <ul>
+    <li><a href="../BA/AccFin-MgtAccounting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance.pdf">Taxation</a>
+     <ul>
+    <li><a href="../BA/AccFin-Taxation.pdf">Syllabus</a></li>
+	</ul>
+	li><a href="../BA/Accounting-Finance.pdf">Forensic Accounting</a>
+     <ul>
+    <li><a href="../BA/AccFin-Forensic Accounting.pdf">Syllabus</a></li>
+	</ul>
+  </ul>
+</li>
+<li><a href="../BA/Accounting-Finance Advanced.pdf">Advanced Diploma in Corporate Financial Reporting</a>
+  <ul>
+   <li><a href="../BA/Accounting-Finance Advanced.pdf">Adv. Financial Reporting</a>
+    <ul>
+    <li><a href="../BA/AccFinAdv-Financial Reporting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance Advanced.pdf">Adv. Management Accounting</a>
+     <ul>
+    <li><a href="../BA/AccFinAdv-MgtAccAdv.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance Advanced.pdf">Quantitative Methods for Business</a>
+     <ul>
+    <li><a href="../BA/AccFinAdv-Quantitative Methods.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance Advanced.pdf">Financial Accounting Theory</a>
+     <ul>
+    <li><a href="../BA/AccFinAdv-Financial Accounting Theory.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Accounting-Finance Advanced.pdf">Project Risk Management</a>
+     <ul>
+    <li><a href="../BA/AccFinAdv-RiskMgt.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/Computerised Accounting.pdf">Diploma in Computerised Accounting</a>
+  <ul>
+   <li><a href="../BA/Computerised Accounting.pdf">Windows Operating System</a>
+    <ul>
+    <li><a href="../BA/CompAcc-WindowsOS.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Computerised Accounting.pdf">Accounting Information Systems</a>
+     <ul>
+    <li><a href="../BA/CompAcc-AIS.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Computerised Accounting.pdf">Excel Accounting</a>
+     <ul>
+    <li><a href="../BA/CompAcc-Excel Accounting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Computerised Accounting.pdf">Quickbooks Accounting</a>
+     <ul>
+    <li><a href="../BA/CompAcc-Quickbooks.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Computerised Accounting.pdf">Sage Accounting</a>
+     <ul>
+    <li><a href="../BA/CompAcc-Sage.pdf">Syllabus</a></li>
+	</ul>
+ <li><a href="../BA/Computerised Accounting.pdf">Pastel/Tally/Myob</a>
+     <ul>
+    <li><a href="../BA/.pdf">Syllabus</a></li>
+	</ul>
+   	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href="../BA/.pdf"><font color="#FF6600"><strong><center>What else after completing Accounting </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/AccountingOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+
+<ul id="ddsubmenuside9" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/CertBA.pdf">Cert in BA & Internet Technology</a>
+  <ul>
+  <center><font color = "blue">Subjects</font></center>
+  <li><a href="../BA/CertBA.pdf">HTML Internet Technology</a>
+    <ul>
+    <li><a href="../BA/CertBA-HTML.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/CertBA.pdf">Accounting Principles</a>
+     <ul>
+    <li><a href="../BA/.CertBA-Accountingpdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/CertBA.pdf">Business Communication</a>
+     <ul>
+    <li><a href="../BA/CertBA-Communication.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/CertBA.pdf">Business Organisation</a>
+     <ul>
+    <li><a href="../BA/CertBA-BusOrg.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/CertBA.pdf">Business Maths</a>
+     <ul>
+    <li><a href="../BA/CertBA-BusMaths.pdf">Syllabus</a></li>
+	</ul>
+	
+  </ul>
+</li>
+
+<li><a href="../BA/DipBA.pdf">Diploma in Business Admin. Computer Systems</a>
+  <ul>
+   <li><a href="../BA/DipBA.pdf">Business Computer Systems</a>
+    <ul>
+    <li><a href="../BA/DipBA-BusCompSy.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/DipBA.pdf">Accounting</a>
+     <ul>
+    <li><a href="../BA/DipBA-Accounting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/DipBA.pdf">Business Administration</a>
+     <ul>
+    <li><a href="../BA/DipBA-BA.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/DipBA.pdf">Economics</a>
+     <ul>
+    <li><a href="../BA/DipBA-Economics.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/DipBA.pdf">Business Ethics</a>
+     <ul>
+    <li><a href="../BA/DipBA-Business Ethics.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/BA-Adv.pdf">Advanced Diploma in BA & Database Technology</a>
+  <ul>
+   <li><a href="../BA/BA-Adv.pdf">Management Information Systems</a>
+    <ul>
+    <li><a href="../BA/BAAdv-MIS.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/BA-Adv.pdf">Human Resource Management</a>
+     <ul>
+    <li><a href="../BA/BAAdv-HRM.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/BA-Adv.pdf">Marketing Management</a>
+     <ul>
+    <li><a href="../BA/BAAdv-Marketing.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/BA-Adv.pdf">Management Accounting</a>
+     <ul>
+    <li><a href="../BA/BAAdv-MgtAccounting.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/BA-Adv.pdf">Financial Management</a>
+     <ul>
+    <li><a href="../BA/BAAdv-FinMgt.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href="../BA/.pdf"><font color="#FF6600"><strong><center>What else after completing Business Admin. </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/BA-Occupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+
+<ul id="ddsubmenuside10" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/Project Management.pdf">Diploma in Project Management</a>
+  <ul>
+   <li><a href="../BA/Project Management.pdf">Project Management Skills</a>
+    <ul>
+    <li><a href="../BA/ProjMgt-ProjectMgtSkills.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Project Management.pdf">Project Management Information System</a>
+     <ul>
+    <li><a href="../BA/ProjMgt-ProjMgtIS.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Project Management.pdf">Business Analysis</a>
+     <ul>
+    <li><a href="../BA/ProjMgt-Business Analysis.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Project Management.pdf">Project Quality Management</a>
+     <ul>
+    <li><a href="../BA/ProjMgt-QltyMgt.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/Project Management.pdf">Project Risk Management </a>
+     <ul>
+    <li><a href="../BA/ProjMgt-RiskMgt.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href=".pdf"><font color="#FF6600"><strong><center>What else after completing Project Management </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/ProjectOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+<ul id="ddsubmenuside11" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/BusinessEconomics.pdf">Diploma in Business Economics</a>
+  <ul>
+   <li><a href="../BA/BusinessEconomics.pdf">Business Finance</a>
+    <ul>
+    <li><a href="../BA/BusinessEconomics-Business Finance.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/BusinessEconomics.pdf">Managerial Economics</a>
+     <ul>
+    <li><a href="../BA/BusinessEconomics-ManagerialEconomics.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/BusinessEconomics.pdf">Economics</a>
+     <ul>
+    <li><a href="../BA/BusinessEconomics-Economics.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/BusinessEconomics.pdf">International Trade & Policies</a>
+     <ul>
+    <li><a href="../BA/BusinessEconomics-InternationalTrade.pdf">Syllabus</a></li>
+	</ul>
+   <li><a href="../BA/BusinessEconomics.pdf">Real Estate Management</a>
+     <ul>
+    <li><a href="../BA/BusinessEconomics-Real Estate Management.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href="../BA/.pdf"><font color="#FF6600"><strong><center>What else after completing Business Economics </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/BusinessEconomicsOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+<ul id="ddsubmenuside12" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/Management.pdf">Diploma in Management</a>
+  <ul>
+   <li><a href="../BA/Management.pdf">Operations Management</a>
+    <ul>
+    <li><a href="../BA/Management-OperationsMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Management.pdf">Business Strategy</a>
+     <ul>
+    <li><a href="../BA/Management-BusinessStrategy.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Management.pdf">Organisational Management</a>
+     <ul>
+    <li><a href="../BA/Management-OrgMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Management.pdf">International Business Management</a>
+     <ul>
+    <li><a href="../BA/Management-InterBusMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Management.pdf">Business Law</a>
+     <ul>
+    <li><a href="../BA/Management-BusinessLaw.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/ManagementAdv.pdf">Advanced Diploma in Management</a>
+  <ul>
+   <li><a href="../BA/ManagementAdv.pdf">Project Management Skills</a>
+    <ul>
+    <li><a href="../BA/ManagementAdv-ProjectMgtSkills.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/ManagementAdv.pdf">Entrepreneurship</a>
+     <ul>
+    <li><a href="../BA/ManagementAdv-Entrepreneurship.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/ManagementAdv.pdf">Strategic Management</a>
+     <ul>
+    <li><a href="../BA/ManagementAdv-StrategicMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/ManagementAdv.pdf">Business Statistics</a>
+     <ul>
+    <li><a href="../BA/ManagementAdv-BusinessStatistics.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/ManagementAdv.pdf">International Politics</a>
+     <ul>
+    <li><a href="../BA/ManagementAdv-InterPolitics.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href=".pdf"><font color="#FF6600"><strong><center>What else after completing Management Studies </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/ManagementOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+<ul id="ddsubmenuside13" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/HRM.pdf">Diploma in Human Resources Management</a>
+  <ul>
+   <li><a href="../BA/HRM.pdf">Human Resource Management</a>
+    <ul>
+    <li><a href="../BA/HRM-HRM.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/HRM.pdf">Organisational Behaviour</a>
+     <ul>
+    <li><a href="../BA/HRM-OrgBehav.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/HRM.pdf">Managing the Labour Market</a>
+     <ul>
+    <li><a href="../BA/HRM-LabourMkt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/HRM.pdf">Labour Law</a>
+     <ul>
+    <li><a href="../BA/HRM-LabourLaw.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/HRM.pdf">Training & Development</a>
+     <ul>
+    <li><a href="../BA/HRM-Training.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/HRM-Adv.pdf">Advanced Diploma in Human Resources Management</a>
+  <ul>
+   <li><a href="../BA/HRM-Adv.pdf">Project Management Skills</a>
+    <ul>
+    <li><a href="../BA/HRMAdv-ProjectMgtSkills.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/HRM-Adv.pdf">Organisational Develoment</a>
+     <ul>
+    <li><a href="../BA/HRMadv-OrgDev.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/HRM-Adv.pdf">Industrial Organisation</a>
+     <ul>
+    <li><a href="../BA/HRMAdv-IndOrg.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/HRM-Adv.pdf">Business Research Methods</a>
+     <ul>
+    <li><a href="../BA/HRMAdv-BusResearchMethods.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/HRM-Adv.pdf">Ethics in Management</a>
+     <ul>
+    <li><a href="../BA/HRMAdv-Ethics.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href=".pdf"><font color="#FF6600"><strong><center>What else after completing Human Resources Management </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/HRM-Occupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+<ul id="ddsubmenuside14" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/Marketing.pdf">Diploma in Marketing</a>
+  <ul>
+   <li><a href="../BA/Marketing.pdf">Services Marketing </a>
+    <ul>
+    <li><a href="../BA/Marketing-Services.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Marketing.pdf">Sales Management</a>
+     <ul>
+    <li><a href="../BA/Marketing-SalesMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Marketing.pdf">Purchasing & supply Management</a>
+     <ul>
+    <li><a href="../BA/Marketing-Purchasing and Supply.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Marketing.pdf">Marketing Management</a>
+     <ul>
+    <li><a href="../BA/Marketing-MktMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Marketing.pdf">Retail Management</a>
+     <ul>
+    <li><a href="../BA/Marketing-Retail Management.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/MarketingAdv.pdf">Advanced Diploma in Marketing</a>
+  <ul>
+   <li><a href="../BA/MarketingAdv.pdf">Consumer Behaviour</a>
+    <ul>
+    <li><a href="../BA/MarketingAdv-ConsumerBehaviour.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/MarketingAdv.pdf">International Marketing</a>
+     <ul>
+    <li><a href="../BA/MarketingAdv-InterMarketing.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/MarketingAdv.pdf">Stratetic Marketing</a>
+     <ul>
+    <li><a href="../BA/MarketingAdv-StrategicMkting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/MarketingAdv.pdf">Marketing Research</a>
+     <ul>
+    <li><a href="../BA/MarketingAdv-MktingResearch.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/MarketingAdv.pdf">Advertising Management</a>
+     <ul>
+    <li><a href="../BA/MarketingAdv-AdvertisingMgt.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href=".pdf"><font color="#FF6600"><strong><center>What else after completing Marketing </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/MarketingOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+<ul id="ddsubmenuside15" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/Finance.pdf">Diploma in Finance</a>
+  <ul>
+   <li><a href="../BA/Finance.pdf">Public Finance </a>
+    <ul>
+    <li><a href="../BA/Finance-PublicFinance.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Finance.pdf">Financial Markets & Investments</a>
+     <ul>
+    <li><a href="../BA/Finance-FinMarkets.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Finance.pdf">Financial & Managerial Accounting</a>
+     <ul>
+    <li><a href="../BA/Finance-Financial and Managerial Accounting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Finance.pdf">Financial Management</a>
+     <ul>
+    <li><a href="../BA/Finance-FinancialMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Finance.pdf">Corporate Governance</a>
+     <ul>
+    <li><a href="../BA/Finance-CorporateGov.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/FinanceAdv.pdf">Advanced Diploma in Finance</a>
+  <ul>
+   <li><a href="../BA/FinanceAdv.pdf">Behavioural Corporate Finance</a>
+    <ul>
+    <li><a href="../BA/FinanceAdv-BehaviouralCorpFinance.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/FinanceAdv.pdf">Financial Risk Management</a>
+     <ul>
+    <li><a href="../BA/FinanceAdv-FinancialRiskMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/FinanceAdv.pdf">Quantitative Methods for Business</a>
+     <ul>
+    <li><a href="../BA/FinanceAdv-Quantitative.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/FinanceAdv.pdf">Finance Theory</a>
+     <ul>
+    <li><a href="../BA/FinanceAdv-FinanceTheory.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/FinanceAdv.pdf">Economics of Social Issues</a>
+     <ul>
+    <li><a href="../BA/FinanceAdv-EconomicsofSocialIssues.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href="../BA/.pdf"><font color="#FF6600"><strong><center>What else after completing Finance </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/Finance Occupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+
+<ul id="ddsubmenuside16" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/Hotel.pdf">Diploma in Hotel Management</a>
+  <ul>
+   <li><a href="../BA/Hotel.pdf">Front Office Management </a>
+    <ul>
+    <li><a href="../BA/Hotel-FrontOffice.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Hotel.pdf">Food & Beverage Management</a>
+     <ul>
+    <li><a href="../BA/Hotel-FoodBeverage.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Hotel.pdf">Hospitality Management</a>
+     <ul>
+    <li><a href="../BA/Hotel-HotelMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Hotel.pdf">Hospitality Managerial Accounting</a>
+     <ul>
+    <li><a href="../BA/Hotel-ManagerialAcc.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Hotel.pdf">Hospitality Strategic Management</a>
+     <ul>
+    <li><a href="../BA/Hotel-StrategicMgt.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/Travel.pdf">Diploma in Travel & Tourism</a>
+  <ul>
+   <li><a href="../BA/Travel.pdf">Tourism Management</a>
+    <ul>
+    <li><a href="../BA/Travel-TourismMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Travel.pdf">Travel & Tourism Marketing</a>
+     <ul>
+    <li><a href="../BA/Travel-TourismMkting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Travel.pdf">Tourism Law</a>
+     <ul>
+    <li><a href="../BA/Travel-TourismLaw.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Travel.pdf">World Georgraphy</a>
+     <ul>
+    <li><a href="../BA/Travel-TourismWorldGeography.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/Travel.pdf">GDS Fares & Ticketing</a>
+     <ul>
+    <li><a href="../BA/Travel-TourismFaresandTicketing.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href="../BA/.pdf"><font color="#FF6600"><strong><center>What else after completing Hospitality </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/HospitalityOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+<ul id="ddsubmenuside17" class="ddsubmenustyle blackwhite">
+<li><a href="../BA/Administrative.pdf">Diploma in Administrative Assistant</a>
+  <ul>
+   <li><a href="../BA/Administrative.pdf">Help Desk & Problem Solving Skills </a>
+    <ul>
+    <li><a href="../BA/Administrative-Help Desk.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Administrative.pdf">Accounting</a>
+     <ul>
+    <li><a href="../BA/Administrative-Accounting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Administrative.pdf">Business Management</a>
+     <ul>
+    <li><a href="../BA/Administrative-BusinessMgt.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Administrative.pdf">Business Legal & Regulatory Environment</a>
+     <ul>
+    <li><a href="../BA/Administrative-Business Environ.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Administrative.pdf">Personal Finance</a>
+     <ul>
+    <li><a href="../BA/Administrative-Personal Finance.pdf">Syllabus</a></li>
+	</ul>
+</ul>   	
+</li>
+	
+	
+<li><a href="../BA/Secretarial.pdf">Diploma in Secretarial Studies</a>
+  <ul>
+   <li><a href="../BA/Secretarial.pdf">Computer Keyboard, Typng & Word Processing Skills</a>
+    <ul>
+    <li><a href="../BA/Secretarial-Typing.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Secretarial.pdf">Accounting </a>
+     <ul>
+    <li><a href="../BA/Secretarial-Accounting.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Secretarial.pdf">Business Office Skills</a>
+     <ul>
+    <li><a href="../BA/Secretarial-OfficeSkills.pdf">Syllabus</a></li>
+	</ul>
+  <li><a href="../BA/Secretarial.pdf">Business Legal Documents</a>
+     <ul>
+    <li><a href="../BA/Secretarial-BusinessLegalDoc.pdf">Syllabus</a></li>
+	</ul>
+<li><a href="../BA/Secretarial.pdf">Managerial Communication & Interpersonal Skills</a>
+     <ul>
+    <li><a href="../BA/Secretarial-Managerial Communication.pdf">Syllabus</a></li>
+	</ul>
+     	</li>
+
+   
+    </ul>
+  </li>
+ <li><a href="../BA/.pdf"><font color="#FF6600"><strong><center>What else after completing Administrative Studies </a></li></strong></font></center>
+<li><a href="../BA/.pdf"><font color="#FF0033" > Corporate Training Dates</a></li></font>
+<li><a href="../BA/AdministrativeOccupational.pdf"><center> <strong>Job Prospects</a></li></strong></center>
+</ul>
+
+
+<div class="arrowlistmenu"> <h3 class="menuheader expandable"> Corporate Training Prices </h3></div>
+
+
+<ul>
+<li><a href="#" rel="ddsubmenuside18">1 day courses</a></li>
+<li><a href="#" rel="ddsubmenuside19">2 day courses</a></li>
+<li><a href="#" rel="ddsubmenuside20">3 day courses</a></li>
+<li><a href="#" rel="ddsubmenuside21">5 day courses</a></li>
+</ul>
+
+
+<ul id="ddsubmenuside18" class="ddsubmenustyle blackwhite">
+<li><a href="#">Discounted price $100</a></li>
+<li><a href="#">Normal fee $200</a></li>
+</ul>
+
+<!--Side Drop Down Menu 2 HTML-->
+
+<ul id="ddsubmenuside19" class="ddsubmenustyle blackwhite">
+<li><a href="#">Discounted price $130 </a></li>
+<li><a href="#">Normal fee $260</a></li>
+</ul>
+
+<ul id="ddsubmenuside20" class="ddsubmenustyle blackwhite">
+<li><a href="#">Discounted price $160</a></li>
+<li><a href="#">Normal fee $320</a></li>
+</ul>
+
+<ul id="ddsubmenuside21" class="ddsubmenustyle blackwhite">
+<li><a href="#">Discounted price $200</a></li>
+<li><a href="#">Normal fee $400</a></li>
+</ul>
+
+<p>
+<div class="arrowlistmenu"> <h3 class="menuheader expandable"> Choose your venue </h3></div>
+
+<iframe name="cwindow" style="border:15px double purple" width=150 height=350 src="venue.htm" > 
+
+</iframe>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="rightcolumn">
+<div class="innertube">
+
+
+
+<div ID="idee"></div>
+
+
+
+<div class="arrowlistmenu"> <h3 class="menuheader expandable"> Corporate Training in Southern Africa </h3></div>
+<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#336666" WIDTH="175px" BEHAVIOR="left" > 1.South Africa(Pretoria/Joburg 2.Namibia(Windhoek) 3.Malawi(Blantyre/Lilongwe) 4.Zambia(Lusaka) 5.Zimbabwe(Harare) 6.Botswana(Gaborone) 7.Lesotho(Maseru) 8.Swaziland(Mbabane) 9. Angola(Luanda) 10. Mozambique(Maputo) <img src=arrow-right.gif /> </marquee>
+
+
+
+
+
+
+<div id="fadeshow1"></div>
+
+<hr font color= "purple"> 
+
+<div class="arrowlistmenu"> <h3 class="menuheader expandable"> Corporate Training in East Africa </h3></div>
+<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#0000CC" BEHAVIOR="left" WIDTH="175px" > 1.Kenya(Nairobi) 2.Tanzania(Dar-es-Salaam) 3.Uganda (Kampala) 4.Rwanda(Kigali) 5.Burundi(Bujumbura) 6.Djobouti(Djobouti) 7.Ethiopia(Addis Ababa) 8.Southern Sudan(Juba) <img src=arrow-right.gif /> </marquee>
+
+<div id="fadeshow2"></div>
+
+<hr font color= "purple">
+
+<div class="arrowlistmenu"> <h3 class="menuheader expandable"> Corporate Training in Central Africa </h3></div>
+
+<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#336666" BEHAVIOR="right" WIDTH="175px" > 1.Democratic Republic of Congo(Kinshasa) 2.Republic of Congo(Brazzaville) 3.Cameroon(Taounde) 4.Equatorial Guinea(Malaba) 5.Gabon(Libreville) 6.Central African Republic (Bangui) 7.Chad(N'Djamena) <img src=arrow-right.gif /> </marquee>
+
+<div id="fadeshow3"></div>
+
+<hr font color= "purple">
+
+<div class="arrowlistmenu"> <h3 class="menuheader expandable"> Corporate Training in West Africa </h3></div>
+
+<marquee style="font-family:Book Antiqua; color: #FFFFFF" bgcolor="#0000CC" BEHAVIOR="right" WIDTH="175px" > 1.Nigerial(Lagos/Abuja) 2.Ghana(Accra) 3.Gambia(Banjul) 4.Senegal(Dakar) 5.Sierra Leone(Freetown) 6.Liberia(Monrovia) 7.Guinea(Conakry) 8.Benin(Porto-Novo) 9.Ivory Coast(Abidjan) 10.Togo(Lome) 11.Niger(Niamey) 12.Mauritania(Novakchott) 13.Burkina Faso(Ouagadougou) 14.Cape Verde(Praja) 15.Mali(Bamako) 16.Guinea-Bissau(Bissau)   <img src=arrow-right.gif />  </marquee>
+
+<div id="fadeshow4"></div>
+
+<hr font color= "purple">
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
